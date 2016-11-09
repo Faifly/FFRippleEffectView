@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5823CA5F1DD35494001539CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823CA5E1DD35494001539CF /* AppDelegate.swift */; };
+		5823CA611DD35494001539CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823CA601DD35494001539CF /* ViewController.swift */; };
+		5823CA641DD35494001539CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823CA621DD35494001539CF /* Main.storyboard */; };
+		5823CA661DD35494001539CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5823CA651DD35494001539CF /* Assets.xcassets */; };
+		5823CA691DD35494001539CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823CA671DD35494001539CF /* LaunchScreen.storyboard */; };
+		5823CA8F1DD369C5001539CF /* FFRippleEffectView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5823CA8A1DD3579A001539CF /* FFRippleEffectView.framework */; };
+		5823CA901DD369C5001539CF /* FFRippleEffectView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5823CA8A1DD3579A001539CF /* FFRippleEffectView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5823CA891DD3579A001539CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5823CA851DD3579A001539CF /* FFRippleEffectView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5823CA7A1DD354D0001539CF;
+			remoteInfo = FFRippleEffectView;
+		};
+		5823CA911DD369C5001539CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5823CA851DD3579A001539CF /* FFRippleEffectView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5823CA791DD354D0001539CF;
+			remoteInfo = FFRippleEffectView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5823CA931DD369C5001539CF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5823CA901DD369C5001539CF /* FFRippleEffectView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5823CA5B1DD35494001539CF /* FFRippleEffectViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFRippleEffectViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5823CA5E1DD35494001539CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5823CA601DD35494001539CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5823CA631DD35494001539CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5823CA651DD35494001539CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5823CA681DD35494001539CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5823CA6A1DD35494001539CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5823CA851DD3579A001539CF /* FFRippleEffectView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FFRippleEffectView.xcodeproj; path = ../FFRippleEffectView/FFRippleEffectView.xcodeproj; sourceTree = "<group>"; };
+		5823CA951DD36AFA001539CF /* FFRippleEffectView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = FFRippleEffectView.podspec; path = ../FFRippleEffectView.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5823CA581DD35494001539CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5823CA8F1DD369C5001539CF /* FFRippleEffectView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5823CA521DD35494001539CF = {
+			isa = PBXGroup;
+			children = (
+				5823CA951DD36AFA001539CF /* FFRippleEffectView.podspec */,
+				5823CA851DD3579A001539CF /* FFRippleEffectView.xcodeproj */,
+				5823CA5D1DD35494001539CF /* FFRippleEffectViewDemo */,
+				5823CA5C1DD35494001539CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5823CA5C1DD35494001539CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5823CA5B1DD35494001539CF /* FFRippleEffectViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5823CA5D1DD35494001539CF /* FFRippleEffectViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5823CA5E1DD35494001539CF /* AppDelegate.swift */,
+				5823CA601DD35494001539CF /* ViewController.swift */,
+				5823CA621DD35494001539CF /* Main.storyboard */,
+				5823CA651DD35494001539CF /* Assets.xcassets */,
+				5823CA671DD35494001539CF /* LaunchScreen.storyboard */,
+				5823CA6A1DD35494001539CF /* Info.plist */,
+			);
+			path = FFRippleEffectViewDemo;
+			sourceTree = "<group>";
+		};
+		5823CA861DD3579A001539CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5823CA8A1DD3579A001539CF /* FFRippleEffectView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5823CA5A1DD35494001539CF /* FFRippleEffectViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5823CA6D1DD35494001539CF /* Build configuration list for PBXNativeTarget "FFRippleEffectViewDemo" */;
+			buildPhases = (
+				5823CA571DD35494001539CF /* Sources */,
+				5823CA581DD35494001539CF /* Frameworks */,
+				5823CA591DD35494001539CF /* Resources */,
+				5823CA931DD369C5001539CF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5823CA921DD369C5001539CF /* PBXTargetDependency */,
+			);
+			name = FFRippleEffectViewDemo;
+			productName = FFRippleEffectViewDemo;
+			productReference = 5823CA5B1DD35494001539CF /* FFRippleEffectViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5823CA531DD35494001539CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Faifly;
+				TargetAttributes = {
+					5823CA5A1DD35494001539CF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B2YEP8DDS6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5823CA561DD35494001539CF /* Build configuration list for PBXProject "FFRippleEffectViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5823CA521DD35494001539CF;
+			productRefGroup = 5823CA5C1DD35494001539CF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5823CA861DD3579A001539CF /* Products */;
+					ProjectRef = 5823CA851DD3579A001539CF /* FFRippleEffectView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5823CA5A1DD35494001539CF /* FFRippleEffectViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5823CA8A1DD3579A001539CF /* FFRippleEffectView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FFRippleEffectView.framework;
+			remoteRef = 5823CA891DD3579A001539CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5823CA591DD35494001539CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5823CA691DD35494001539CF /* LaunchScreen.storyboard in Resources */,
+				5823CA661DD35494001539CF /* Assets.xcassets in Resources */,
+				5823CA641DD35494001539CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5823CA571DD35494001539CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5823CA611DD35494001539CF /* ViewController.swift in Sources */,
+				5823CA5F1DD35494001539CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5823CA921DD369C5001539CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFRippleEffectView;
+			targetProxy = 5823CA911DD369C5001539CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5823CA621DD35494001539CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5823CA631DD35494001539CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5823CA671DD35494001539CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5823CA681DD35494001539CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5823CA6B1DD35494001539CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5823CA6C1DD35494001539CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5823CA6E1DD35494001539CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2YEP8DDS6;
+				INFOPLIST_FILE = FFRippleEffectViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.FFRippleEffectViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5823CA6F1DD35494001539CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2YEP8DDS6;
+				INFOPLIST_FILE = FFRippleEffectViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.FFRippleEffectViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5823CA561DD35494001539CF /* Build configuration list for PBXProject "FFRippleEffectViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5823CA6B1DD35494001539CF /* Debug */,
+				5823CA6C1DD35494001539CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5823CA6D1DD35494001539CF /* Build configuration list for PBXNativeTarget "FFRippleEffectViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5823CA6E1DD35494001539CF /* Debug */,
+				5823CA6F1DD35494001539CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5823CA531DD35494001539CF /* Project object */;
+}
