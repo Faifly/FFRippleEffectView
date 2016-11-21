@@ -45,6 +45,11 @@ open class FFRippleEffectView: UIView
         self.imageView.contentMode = .scaleAspectFill
         self.imageView.isUserInteractionEnabled = false
         self.imageView.backgroundColor = .clear
+        self.imageView.translatesAutoresizingMaskIntoConstraints = false
+        
+        let verticalLayout = NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[imageView]-0-|", options: [], metrics: nil, views: ["imageView": self.imageView])
+        let horizontalLayout = NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[imageView]-0-|", options: [], metrics: nil, views: ["imageView": self.imageView])
+        NSLayoutConstraint.activate(verticalLayout + horizontalLayout)
         
         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.onTap))
         self.addGestureRecognizer(tapRecognizer)
