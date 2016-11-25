@@ -16,6 +16,13 @@ open class FFRippleEffectView: UIView
     @IBInspectable public var continiousRipples: Bool = true
     @IBInspectable public var ripplesInterval: Double = 2.2
     @IBInspectable public var cornerRadius: CGFloat = 0.0
+    {
+        didSet
+        {
+            self.layer.cornerRadius = self.cornerRadius
+            self.imageView.layer.cornerRadius = self.cornerRadius
+        }
+    }
     @IBInspectable public var image: UIImage?
     
     public var tapHandler: (() -> ())?
